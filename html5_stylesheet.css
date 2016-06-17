@@ -1,0 +1,101 @@
+/************************************/
+/* CSS Dokument für Screens >=640px */
+/* Date: 2016.06.09                 */
+/************************************/
+
+@charset "utf-8";
+
+@import url('styles/css-body.h');
+
+header
+{
+    /*margin: 10px; */
+    background-color: #63adff;
+    color: #ffffff;
+    height: 190px;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#hilfscontainer 
+{
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+aside 
+{
+    float: left;
+    text-align: center;
+    width: 25%;
+    
+}
+
+@import url('styles/css-nav.h');
+
+main
+{
+    background-color: #ffffff;
+    /* margin: 10px;  */
+    color: #000000;
+    float: left;
+    width: 75%;
+}
+
+main h1
+{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+article 
+{
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+    
+    margin: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;     
+    
+    font-size: large;
+}   
+
+footer 
+{
+    background-color: #63adff;
+    
+    clear: both;
+    /* float: none; */
+    
+    color: #ffffff;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    text-align: center;
+    width: 100%;
+    
+}                    
+
+@import url('styles/css-image.h');
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    list-style-type: none;
+    font-size: large;
+}
+
+@import url('styles/css-menu-items.h');
