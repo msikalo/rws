@@ -5,7 +5,7 @@
                 <ul>
                     <li><a href="index.html">Startseite</a></li>
                     <li><a href="rubrik1.html">Rubrik 1</a></li>
-                    <li><a href="rubrik2.html">Rubrik 2</a></li>
+                    <li><a href="rubrik2.html">Rubrik 22</a></li>
                     <li><a href="rubrik3.html">Rubrik 3</a></li>
                     <li><a href="rubrik4.html">Rubrik 4</a></li>
                     <li><a href="impressum_und_kontakt.html">Impressum und Kontakt</a></li>          

@@ -9,6 +9,18 @@ var importCss = require('gulp-import-css');
 //var minifyInline = require('gulp-minify-inline');
 
 
+var browserSync = require('browser-sync').create();
+
+// Static server
+gulp.task('serve', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./prod"
+        }
+    });
+});
+
+
 gulp.task('make', ['clean'], function() {
 
 	gulp.src('*.html')
