@@ -1,6 +1,6 @@
             <article>
             
-                <h1>&Uuml;berschrift Startseite</h1>
+                <h1>&Uuml;berschrift SSRtartsite</h1>
              
                 <figure> <img src="images/espana (1).jpg" alt="Espana" title="Dummy" width="500" height="449" style="border: 0px;" /> 
              
